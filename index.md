@@ -2,6 +2,7 @@
 ## smaller header!!
 
 Hello world!
+**CSE 15L**  students are *awesome*
 
 *italicize*
 **bolded**
