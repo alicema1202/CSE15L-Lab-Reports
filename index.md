@@ -9,8 +9,6 @@ Hello world!
 
 [Link to something here](https://www.youtube.com/)
 
-![add image here](file location, put in the folder!)
-
 create a list~
 * item 1
 * item 2
