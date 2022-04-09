@@ -1,1 +1,32 @@
+# big header!!
+## smaller header!!
+
 Hello world!
+**CSE 15L**  students are *awesome*
+
+*italicize*
+**bolded**
+[Link to something here](https://www.youtube.com/)
+![add image here](https://scontent.xx.fbcdn.net/v/t1.15752-9/277895843_371339571392280_7126185324265341514_n.png?_nc_cat=101&ccb=1-5&_nc_sid=aee45a&_nc_ohc=053IFlwbM5cAX8LcXSi&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKDrw-0zQCVF2jNQoarpGIlkooyvUgVY5RzXAwTPG0-OA&oe=6275628D)
+
+> blockquote~~ something here
+
+
+create a list~
+* item 1
+* item 2
+* item 3
+create a list with nums~
+1. hello
+2. hello
+3. heyy
+
+Horizontal line below:
+---
+`System.out.println("Hello World!")`
+
+```
+code row 1
+row 2
+row 3
+```
