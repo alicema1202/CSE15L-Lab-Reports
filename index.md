@@ -1,6 +1,9 @@
 # big header!!
 ## smaller header!!
 
+[Lab Report 1](lab-report-1-week-2.html)
+
+
 Hello world!
 **CSE 15L**  students are *awesome*
 
