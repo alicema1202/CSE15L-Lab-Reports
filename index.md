@@ -15,7 +15,6 @@ Hello world!
 
 ![another image](https://scontent.xx.fbcdn.net/v/t1.15752-9/259502046_868454117115751_3352650607741416557_n.png?_nc_cat=103&ccb=1-5&_nc_sid=aee45a&_nc_ohc=y79rl6t0riwAX-gqurM&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVLR_hrc51GzvMoiyxwYPorssqyEnlBw4eFybnC1f0pPSQ&oe=627517D2)
 
-
 > blockquote~~ something here
 
 
@@ -32,7 +31,9 @@ create a list with nums~
 
 Horizontal line below:
 ---
-`System.out.println("Hello World!")`
+```Java
+System.out.println("Hello World!")`
+```
 
 ```
 code row 1
