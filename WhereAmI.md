@@ -1,4 +1,4 @@
-
+# [Back to Lab Report](lab-report-1-week-2.md)
 ``` Java
 class WhereAmI {
   public static void main(String[] args) {
@@ -9,4 +9,3 @@ class WhereAmI {
   }
 }
 ```
-[Back to Lab Report](lab-report-1-week-2.md)
