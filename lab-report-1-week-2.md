@@ -20,7 +20,9 @@ Now, type this following statement into your VScode terminal:
 Now that we are logged into the remote server, we can try some different commands. The ones shown below are: *ls* (list files), *ls -a* (list files including hidden), and *pwd* (print working directory). 
 
 ![](commands.png)
->Some other ones you may want to try out are *cd*, *cat*, *mkdir*, and *cp*.
+
+Some other ones you may want to try out are *cd*, *cat*, *mkdir*, and *cp*.
+
 ## 4. Moving Files with scp ##
 Start by creating a new Java file, name it `WhereAmI.java`. Copy the contents of [this page](WhereAmI.md) into your file. 
 Now, run the following commands (if you have Java installed):
