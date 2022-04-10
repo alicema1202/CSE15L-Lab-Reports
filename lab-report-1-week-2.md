@@ -47,7 +47,7 @@ Now, try logging into ieng6 again using ssh, and you should be able to go in wit
 ## 6. Optimizing Remote Running ##
 We can optimize remote running and save keystrokes. For example, we are able to copy a file into the home directory and access the contents of it just by entering the following:
 ```Java
-scp WhereAmI.java cs15lsp22<username>@ieng6.ucsd.edu
-ssh cs15lsp22<username>@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
+scp WhereAmI.java cs15lsp22<username>@ieng6.ucsd.edu:~/
+ssh cs15lsp22<username>@ieng6.ucsd.edu "ls; javac WhereAmI.java; java WhereAmI"
 ```
-![](https://scontent.xx.fbcdn.net/v/t1.15752-9/277991302_3142866135955516_7070268795242236875_n.png?_nc_cat=100&ccb=1-5&_nc_sid=aee45a&_nc_ohc=as-o8cb4bEUAX8MKhKk&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVJbx4nlUjKRwr3Vexvr6wajS_95hrG4S54N8KklwerSlg&oe=627AAFF6)
+![](https://scontent.xx.fbcdn.net/v/t1.15752-9/277973287_2794698160825243_5296592739742318231_n.png?_nc_cat=108&ccb=1-5&_nc_sid=aee45a&_nc_ohc=HfnZ4motyqoAX-hB4b8&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVLKwlaT7kQMV1LYNNnUMj1mDSVIIEShNgvTbJqzld9o-w&oe=62787E78)
