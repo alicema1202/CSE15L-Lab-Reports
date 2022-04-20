@@ -4,7 +4,7 @@
 ## Code Change 1
 > Issue: When there is an extra line at the end, the code runs into an infinite loop and stops working. 
 
-The issue can be seen when the original code is run with [this](test-file-1.txt) test file.
+The issue can be seen when the original code is run with [this](test-file-1.txt "Test File 1") test file.
 
 When the above file was run at the command line, it outputted a message like this:
 ```
