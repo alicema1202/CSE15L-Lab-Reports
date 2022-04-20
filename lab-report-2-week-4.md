@@ -22,7 +22,9 @@ Relationship between the bug, the symptom, and the failure inducing input:
 
 In the code, there is a while loop that causes the bug: 
 
-` while(currentIndex < markdown.length()) `
+```
+while(currentIndex < markdown.length())
+```
 
 The failure-inducing input has extra lines at the end, which cause `markdown.length()` to be incremented by two each extra line. Thus, `currentIndex` is never larger than or equal to `markdown.length()`, creating an infinite loop that causes the `java.lang.OutOfMemoryError`.
 
