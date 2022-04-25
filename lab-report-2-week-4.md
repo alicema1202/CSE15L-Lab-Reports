@@ -61,7 +61,7 @@ It would output `wontBeALink.com`. This is the reason why page.com was outputted
 Code change difference:
 ![](https://scontent.xx.fbcdn.net/v/t1.15752-9/278936196_590958952462949_8542918747941334661_n.png?_nc_cat=104&ccb=1-5&_nc_sid=aee45a&_nc_ohc=jldoniEFGZYAX8LSsxf&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVI0MUuF6MMQvIXkTEkJinU-p-jDMmuO2SR3p4UTcgJSdA&oe=62881A0D)
 
-The issue can be recognized when the code is run through [this](test-file2.txt "Test File 2") test file.
+The issue can be recognized when the code is run through [this](test-file-2.txt "Test File 2") test file.
 
 When this file is run at the command line, it outputs the following:
 
