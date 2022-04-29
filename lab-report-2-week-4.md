@@ -37,7 +37,7 @@ The failure-inducing input has extra lines at the end, which cause `markdown.len
 
 Code change difference:
 
-![](https://scontent.xx.fbcdn.net/v/t1.15752-9/278958125_525245492345403_1016325706361200936_n.png?_nc_cat=108&ccb=1-5&_nc_sid=aee45a&_nc_ohc=_qVS9cWo-EoAX9A9X-P&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVL9WhFxFcRAJGhtB-1qtuXVlNJmPWLgJTa9lv4pk10jtA&oe=62891872)
+![](https://scontent.xx.fbcdn.net/v/t1.15752-9/279329452_327753629446594_6366693397569687054_n.png?_nc_cat=102&ccb=1-5&_nc_sid=aee45a&_nc_ohc=u8mfcDstdlEAX_Q8VeE&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVJI7_jY6AfCiCRI4dWq-M2IEBbHgso1CNi1kBUM2INK6w&oe=6292F1D2)
 
 The issue can be recognized when the code is run through [this](test-file-3.txt "Test File 3") test file. 
 
