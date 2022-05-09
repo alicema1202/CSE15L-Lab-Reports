@@ -7,7 +7,7 @@ My .ssh/config file and how I edited it:
 
 I opened my config file in the notepad and edited it in there. I set my alias to be "alice"
 
->I later modified it to be "ieng6" just so I could copy the commands from the lab easily, so some screenshots will show me doing `ssh ieng6` instead of `ssh alice`)
+>I later modified it to be "ieng6" just so I could copy the commands from the lab easily, so some screenshots will show me doing `ssh ieng6` instead of `ssh alice`
 
 ![](https://scontent.xx.fbcdn.net/v/t1.15752-9/280076811_1180703666097699_1235992140166893346_n.png?_nc_cat=106&ccb=1-6&_nc_sid=aee45a&_nc_ohc=cBHK3BRvpW8AX8QYeE9&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVINgLVIz3eIDGeJkotsp7z1S4soB4J3moO4MxzetrcYiw&oe=629FD39B)
 
