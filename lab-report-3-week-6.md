@@ -1,7 +1,7 @@
 # Lab Report 3
 ### Implementing all Group Choice Options from Lab 5.
 
-## Streamlining ssh Configuration
+## 1. Streamlining ssh Configuration
 
 My .ssh/config file and how I edited it:
 
@@ -23,7 +23,7 @@ An scp command copying a file to my account using just my alias; I will copy ove
 
 Using the ls command, we can see that the file, index.md, has been copied over to my account using my alias.
 
-## Setup Github Access from ieng6
+## 2. Setup Github Access from ieng6
 The public key that is made is stored here on Github...
 ![](https://scontent.xx.fbcdn.net/v/t1.15752-9/280120381_308068234681186_3905321658330235621_n.png?_nc_cat=104&ccb=1-6&_nc_sid=aee45a&_nc_ohc=mwVmAL4NZsgAX89bNoA&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVIFPSYz_1hSBs3DpkHze3KzUHzVNkK6zp9NLA6m9Q2Bew&oe=629F82E7)
 
@@ -39,7 +39,7 @@ Let's run some git commads and push the changes to Github while on my ieng6 acco
 Here's the [link](https://github.com/alicema1202/markdown-parser/commit/fc9782f8939a4788185cab67135f28162b1e298b "markdown-parser repository") for the resulting commit:
 ![](https://scontent.xx.fbcdn.net/v/t1.15752-9/280192101_5415016561864778_2347696041906020515_n.png?_nc_cat=103&ccb=1-6&_nc_sid=aee45a&_nc_ohc=gApz04CKrk4AX_a-FOZ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKQSi4WNdOuHwzrcg-Mjyk_MOdNU0rHsBvqMcQ2Xcpwgg&oe=629EEA05)
 
-## Copy whole directories with scp -r
+## 3. Copy whole directories with scp -r
 
 The picture below shows my entire markdown-parse directory being copied into my ieng6 account using the following command:
 ```
