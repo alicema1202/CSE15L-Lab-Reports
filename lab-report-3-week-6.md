@@ -54,4 +54,4 @@ Combining `scp`, `;`, and `ssh`, I am able to copy the entire directory to my ie
 ```java
 scp -r *.java *.md lib/ ieng6:markdown-parser; ssh ieng6 "cd markdown-parser; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"  
 ```
-![](https://scontent.xx.fbcdn.net/v/t1.15752-9/279800093_361953632578598_8105718885270580586_n.png?_nc_cat=109&ccb=1-6&_nc_sid=aee45a&_nc_ohc=ZF_gpQS-fQYAX_rF3zm&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVIdnLLMoSM67ZY0X5F1bpp0a9OWJcbEpHVaDXfAO3hqpw&oe=629C93BC)
+![](https://scontent.xx.fbcdn.net/v/t1.15752-9/280279700_1457206708051544_2968601044265201778_n.png?_nc_cat=106&ccb=1-6&_nc_sid=aee45a&_nc_ohc=c4M7MMnG644AX-fgquV&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVJBHm6rt0Xf0Xqagr2V87-IMx_xCZqv-6hHxTWspBO3ug&oe=629EF2D0)
