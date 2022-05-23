@@ -16,7 +16,9 @@
 
 ```
 >Expected output: [`google.com, google.com, ucsd.edu]
+
 ### JUnit Test for this code snippet:
+
 ``` Java
 @Test
     public void testSnippet1() throws IOException {
@@ -27,6 +29,7 @@
     }
 ```
 ### JUnit Output (my own):
+
 ```
 1) testSnippet1(MarkdownParseTest)
 java.lang.AssertionError: expected:<[`google.com, google.com, ucsd.edu]> but was:<[url.com, `google.com, google.com]>
@@ -38,6 +41,7 @@ java.lang.AssertionError: expected:<[`google.com, google.com, ucsd.edu]> but was
 ```
 
 ### JUnit Output (review group):
+
 ```
 1) testSnippet1(MarkdownParseTest)
 java.lang.AssertionError: expected:<[[a link](url.com), another link`, cod[e, code]]> but was:<[url.com, `google.com, google.com, ucsd.edu]>
@@ -77,6 +81,7 @@ java.lang.AssertionError: expected:<[[a link](url.com), another link`, cod[e, co
         at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
 ```
 ## Snippet 2
+
 ``` 
 [a [nested link](a.com)](b.com)
 
@@ -85,7 +90,9 @@ java.lang.AssertionError: expected:<[[a link](url.com), another link`, cod[e, co
 [some escaped \[ brackets \]](example.com)
 
 ```
+
 >Expected output: [b.com, a.com(()), example.com]
+
 ### JUnit Test for this code snippet:
 ``` Java
  @Test
@@ -146,7 +153,7 @@ java.lang.AssertionError: expected:<[[a nested link](b.com), a nested parenthesi
         at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
 ```
 ## Snippet 3
-``` markdown
+``` 
 [this title text is really long and takes up more than 
 one line
 
@@ -172,7 +179,9 @@ And there's still some more text after that.
 
 And then there's more text
 ```
+
 > Expected output: [https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]
+
 ### JUnit Test for this code snippet:
 ``` Java
 @Test
